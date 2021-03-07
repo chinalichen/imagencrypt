@@ -1,4 +1,4 @@
-To present the difference between AES-CBC mode and AES-ECB mode when encrypt an image.
+To present the difference between AES [CBC mode and ECB mode](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation) when encrypt an image.
 
 # Origin image
 
