@@ -29,12 +29,12 @@ func main() {
 
 	// ECB 模式加密
 	if err := encryptImageWith(img, Encrypt, "after/img_ecb.bmp"); err != nil {
-		fmt.Printf("read origin image error %v", err)
+		fmt.Printf("encrypt image with ecb mode error %v", err)
 		return
 	}
 	// CBC 模式加密
 	if err := encryptImageWith(img, NewEncrypt, "after/img_cbc.bmp"); err != nil {
-		fmt.Printf("read origin image error %v", err)
+		fmt.Printf("encrypt image with cbc mode error %v", err)
 		return
 	}
 }
